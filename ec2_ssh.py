@@ -11,11 +11,9 @@ __version__ = '1.9.0'
 
 parser = argparse.ArgumentParser(
     description="""
-    SSH into an ec2 host where <tag-value> matches a tag which defaults to
-    'Name' or environment variable EC2_HOST_TAG. In the case there is more than
-    one such instance, one will be chosen at random. 'username' defaults to
-    ubuntu.  A small bashrc file is added over ssh to give a nice prompt. Any
-    extra arguments at the end are passed to ssh directly.
+    SSH into an ec2 host where a tag matches the given value. In the case there
+    is more than one such instance, one will be chosen at random. Any extra
+    arguments are passed to ssh directly.
     """
 )
 parser.add_argument('-t', '--tag', type=str,
