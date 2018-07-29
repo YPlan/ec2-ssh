@@ -38,7 +38,7 @@ setup(
     description="SSH into EC2 instances via tag name",
     long_description=readme + '\n\n' + history,
     license="MIT",
-    url="https://github.com/YPlan/ec2-ssh",
+    url="https://github.com/adamchainz/ec2-ssh",
     keywords=["amazon", "aws", "ec2", "ami", "ssh", "cloud", "boto"],
     install_requires=['boto3>=1.1.0'],
     py_modules=['ec2_ssh'],

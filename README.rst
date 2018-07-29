@@ -5,8 +5,8 @@ ec2-ssh
 .. image:: https://img.shields.io/pypi/v/ec2-ssh.svg
     :target: https://pypi.python.org/pypi/ec2-ssh
 
-.. image:: https://travis-ci.org/YPlan/ec2-ssh.svg?branch=master
-    :target: https://travis-ci.org/YPlan/ec2-ssh
+.. image:: https://travis-ci.org/adamchainz/ec2-ssh.svg?branch=master
+    :target: https://travis-ci.org/adamchainz/ec2-ssh
 
 
 A pair of command line utilities for finding and SSH-ing into your Amazon EC2
